@@ -5,6 +5,8 @@
     outline: none;
 }
 
+
+
 body {
     font-family: Arial, sans-serif;
     background-color: #ffffff;
@@ -15,9 +17,18 @@ body {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 12px 24px;
-    background-color: #f9f9f9;
-    border-bottom: 1px solid #e0e0e0;
+    padding: 15px;
+}
+
+.top-bar nav ul {
+    display: flex;
+    gap: 20px;
+    list-style: none;
+}
+
+.top-bar nav a {
+    color: #999999;
+    text-decoration: none;
 }
 
 .logo {
