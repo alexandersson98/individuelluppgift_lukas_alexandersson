@@ -27,15 +27,18 @@ body {
 }
 
 .top-bar nav a {
-    color: #999999;
+    color: #222;
     text-decoration: none;
 }
 
 .logo {
     font-size: 24px;
     font-weight: bold;
-    color: #999999;
+    background: linear-gradient(90deg, #ff6a00, #ee0979, #00c6ff);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
 }
+    
 
 .menu {
     display: flex;
