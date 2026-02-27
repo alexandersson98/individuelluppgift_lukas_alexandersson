@@ -146,7 +146,7 @@ h2 {
     display: inline-block;
     padding: 8px 16px;
     background-color: #dddddd;
-    background: linear-gradient(90deg, #ff6a00, #ee0979, #00c6ff);
+    background: linear-gradient(90deg, #a4a09de1, #ee0979, #00c6ff);
     border-radius: 4px;
     cursor: pointer;
     font-size: 13px;
@@ -155,7 +155,7 @@ h2 {
 .newsletter {
     margin-top: 32px;
     padding: 24px;
-    background-color: #f7f7f7;
+    background: linear-gradient(90deg, #a5a19e, #ded3d9, #acb2b4);
 }
 
 .newsletter input {
@@ -166,7 +166,12 @@ h2 {
     width: 200px;
     margin-right: 8px;
 }
-
+.newsletter p {
+    color: #000;
+}
+label {
+    color: #000;
+}
 .footer {
     padding: 16px 24px;
     background-color: #f0f0f0;
