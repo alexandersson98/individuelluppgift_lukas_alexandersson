@@ -1,4 +1,4 @@
-document.addEventListener("DOMContentLoaded", function () {
+
     var items = document.querySelectorAll(".add-to-cart");
     items.forEach(function (item) {
         item.addEventListener("click", function () {
@@ -13,13 +13,11 @@ document.addEventListener("DOMContentLoaded", function () {
             alert("Thank you for subscribing!");
         });
     }
-});
 
-document.addEventListener("DOMContentLoaded", function () {
   if (window.axe) {
     axe.run().then(results => {
       console.log("axe violations:", results.violations.length);
       console.log(results.violations);
     });
   }
-});
+
