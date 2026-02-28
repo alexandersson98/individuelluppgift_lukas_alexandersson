@@ -174,14 +174,17 @@ label {
 }
 .footer {
     padding: 16px 24px;
-    background-color: #f0f0f0;
+    background-color: #000000;
     margin-top: 40px;
     text-align: center;
-    font-size: 12px;
+    font-size: 18px;
+    color: #ffffff;
 }
 
 .footer a {
-    color: #999999;
+    
     text-decoration: none;
     margin-left: 8px;
+    font-size: 4rem;
+    
 }
