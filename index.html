@@ -12,95 +12,101 @@
 
 <body>
     <header class="top-bar">
-        <div class="logo">MyShop</div>
-        <nav aria-label="navigation">
-            <ul>
-                <li><a href="#">Home</a></li>
-                <li><a href="#">Products</a></li>
-                <li><a href="#">Contact</a></li>
-            </ul>
-        </nav>
+            <div class="logo">MyShop</div>
+            <nav aria-label="navigation">
+                <ul>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">Products</a></li>
+                    <li><a href="#">Contact</a></li>
+                </ul>
+            </nav>
     </header>
 
     <main id="main">
     <section class="hero" aria-labelledby="hero-title">
-        <img src="images/pexels-photo-373912.jpeg" alt="" width="1200" height="480" class="hero-image" fetchpriority="high" decoding="async">
-        <div class="hero-text">
-            <h1 id="hero-title">Welcome to MyShop</h1>
-            <p>Find the best products at the lowest prices.</p>
-            <a href="#" class="primary-button">Shop now</a>
-        </div>
+        <img src="images/pexels-photo-373912.jpeg" alt="" width="1200" height="480" class="hero-image" fetchpriority="high" decoding="async">     
+            <div class="hero-text">
+                <h1 id="hero-title">Welcome to MyShop</h1>
+                <p>Find the best products at the lowest prices.</p>
+                <a href="#" class="primary-button">Shop now</a>
+            </div>
     </section>
 
     <div class="content">
-        <div class="section-title">
-            <h2>Our Products</h2>
-        </div>
+        <div class="wrapper">
+            <div class="section-title">
+                <h2>Our Products</h2>
+            </div>
 
-        <div class="products">
-            <div class="product-card">
-                <img src="images/pexels-photo-461428.png" alt="black over-ear headphones from sony"
-                 width="600"
-                  height="400"
-                   class="product-image"
+            <div class="products">
+                <div class="product-card">
+                    <img src="images/pexels-photo-461428.png" alt="black over-ear headphones from sony"
+                    width="600"
+                    height="400"
+                    class="product-image"
+                        loading="lazy"
+                        decoding="async">
+                    <h3>Headphones</h3>
+                    <p class="product-description">
+                        High quality headphones with amazing sound. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                    </p>
+                    <p class="product-price">599 kr</p>
+                    <button class="add-to-cart" type="button">Add to cart</button>
+                </div>
+
+                <div class="product-card">
+                    <img src="images/pexels-photo-1334597.png" alt="Smartwatch on a wrist with a snug fit" 
+                    width="600" 
+                    height="400"
+                    class="product-image"
                     loading="lazy"
                     decoding="async">
-                <h3>Headphones</h3>
-                <p class="product-description">
-                    High quality headphones with amazing sound. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                </p>
-                <p class="product-price">599 kr</p>
-                 <button class="add-to-cart" type="button">Add to cart</button>
-            </div>
+                    <h3>Smart Watch</h3>
+                    <p class="product-description">
+                        Track your activity and stay connected. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                    </p>
+                    <p class="product-price">1299 kr</p>
+                    <button class="add-to-cart" type="button">Add to cart</button>
+                </div>
 
-            <div class="product-card">
-                <img src="images/pexels-photo-1334597.png" alt="Smartwatch on a wrist with a snug fit" 
-                width="600" 
-                height="400"
-                class="product-image"
-                loading="lazy"
-                decoding="async">
-                <h3>Smart Watch</h3>
-                <p class="product-description">
-                    Track your activity and stay connected. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                </p>
-                <p class="product-price">1299 kr</p>
-                <button class="add-to-cart" type="button">Add to cart</button>
-            </div>
-
-            <div class="product-card">
-                <img src="images/pexels-photo.png" 
-                alt="Digital camera" 
-                width="600" 
-                height="400"
-                class="product-image"
-                loading="lazy"
-                decoding="async">
-                <h3>Camera</h3>
-                <p class="product-description">
-                    Capture your best moments in high resolution. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                </p>
-                <p class="product-price">3499 kr</p>
-                <button class="add-to-cart" type="button">Add to cart</button>
+                <div class="product-card">
+                    <img src="images/pexels-photo.png" 
+                    alt="Digital camera" 
+                    width="600" 
+                    height="400"
+                    class="product-image"
+                    loading="lazy"
+                    decoding="async">
+                    <h3>Camera</h3>
+                    <p class="product-description">
+                        Capture your best moments in high resolution. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                    </p>
+                    <p class="product-price">3499 kr</p>
+                    <button class="add-to-cart" type="button">Add to cart</button>
+                </div>
             </div>
         </div>
     </div>
 
     <div class="newsletter">
-        <h2>Subscribe to our newsletter</h2>
-        <p>Get the latest updates and offers.</p>
-        <form>
-            <label for="name">Your name</label>
-            <input type="text" id="name" name="name" placeholder="Your name">
-            <label for="email">Your email</label>
-            <input type="email" id="email" name="email" placeholder="Your email">
-            <button type="submit" class="primary-button">Subscribe</button>
-        </form>
+        <div class="wrapper">
+            <h2>Subscribe to our newsletter</h2>
+            <p>Get the latest updates and offers.</p>
+            <form>
+                <label for="name">Your name</label>
+                <input type="text" id="name" name="name" placeholder="Your name">
+                <label for="email">Your email</label>
+                <input type="email" id="email" name="email" placeholder="Your email">
+                <button type="submit" class="primary-button">Subscribe</button>
+            </form>
+        </div>
     </div>
     </main>
 
     <footer class="footer">
-        <p>© 2025 MyShop. All rights reserved.</p>
+        <div class="wrapper">
+            <p>© 2025 MyShop. All rights reserved.</p>
+        </div>
     </footer>
 </body>
 </html>
