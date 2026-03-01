@@ -5,6 +5,11 @@
     outline: none;
 }
 
+:focus {
+    outline: 3px solid #ff6a00;
+    outline-offset: 2px;
+}
+
 
 
 body {
