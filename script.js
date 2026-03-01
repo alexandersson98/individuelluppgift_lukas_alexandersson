@@ -11,6 +11,8 @@
         newsletterButton.addEventListener("click", function (e) {
             e.preventDefault();
             alert("Thank you for subscribing!");
+            document.getElementById("name").value = "";
+            document.getElementById("email").value = "";
         });
     }
 
